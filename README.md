@@ -1,8 +1,9 @@
 ## Problem ##
 
-You’re in a maze where every room emits a tone (a non-negative integer). The softer the tone, the closer you feel to the Exit. Starting at the Start room, you must reach the Exit by always choosing to explore the next most promising room you've discovered, based on its tone.
+You’re in a maze where every room emits a tone (a non-negative integer). 
+### The softer the tone, the closer you feel to the Exit. Starting at the Start room, you must reach the Exit by always choosing to explore the next most promising room you've discovered, based on its tone. ###
 
-If multiple rooms are equally promising, choose the one whose name comes first in lexicographic order.
+### If multiple rooms are equally promising, choose the one whose name comes first in lexicographic order. ###
 
 Find a path from Start to Exit following the above selection rule. Once you reach the Exit, reconstruct and print the path from Start to Exit. If no path exists, print -1.
 
@@ -48,9 +49,9 @@ E G <br>
 F G <br>
 A G <br>
 
-       B(7)
-          /        \
-     A(12)     D(5)───F(9)
+             B(7)
+          /       \
+     A(12)        D(5)───F(9)
           \        /      \
            C(6)───E(3)────G(1)  ← Exit
 
