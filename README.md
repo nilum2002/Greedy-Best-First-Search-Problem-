@@ -35,18 +35,18 @@ Multiple valid paths may exist; your selection order must follow the policy abov
 Sample input
 
 
-7 8
-A B C D E F G
-12 7 6 5 3 9 1
-A B
-A C
-B D
-C D
-C E
-D F
-E G
-F G
-A G
+7 8 <br>
+A B C D E F G <br>
+12 7 6 5 3 9 1 <br>
+A B <br>
+A C <br>
+B D <br>
+C D <br>
+C E <br>
+D F <br>
+E G <br>
+F G <br>
+A G <br>
 
        B(7)
           /        \
